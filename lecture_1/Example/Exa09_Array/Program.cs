@@ -61,3 +61,4 @@ if (c3>max) max =c3;
 // "1" "2"
 Console.WriteLine(result);
 
+//проверка нового app 
