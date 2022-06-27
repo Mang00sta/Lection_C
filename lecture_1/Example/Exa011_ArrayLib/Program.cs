@@ -51,10 +51,4 @@ Console.WriteLine ();
 int pos=indexOf (array, 4);
 Console.WriteLine(pos); 
 
-
-
-
-
-
-
-
+//test
