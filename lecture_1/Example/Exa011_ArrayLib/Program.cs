@@ -1,4 +1,4 @@
-﻿void FillArray(int[] collection) // Наименование метода -Collection это название 
+﻿void FillArray(int[] collection) // Метод заполнения массива. Наименование метода -Collection это название 
 {
     int Length = collection.Length; //длина массива
     int index =0;
@@ -10,22 +10,22 @@
     }
 }
  
-void PrintArray (int[] pri) // Имя метода "col"
+void PrintArray (int[] pri) // Имя метода "pri" метод который выводит на печать
 {
     int count = pri.Length; // количество элементов
     int position =0; // текущая позиция
     while (position<count) 
     {
-        Console.WriteLine(pri [position]);
+        Console.WriteLine(pri [position]); //значение текущего элемента
         position++;
     }
 }
  
-int indexOf(int[] collection, int find)
+int indexOf(int[] collection, int find) //
 {
     int count =collection.Length;
     int index = 0;
-    int position=-1;
+    int position=-1; //куда сохранить позицию. Если не встречаеться ни одного элемента ставим -1
     
     while (index<count)
     {
@@ -48,7 +48,7 @@ array[6]=4;
 PrintArray (array); // метод - распечатал
 Console.WriteLine ();
 
-int pos=indexOf (array, 4);
+int pos=indexOf (array, 4); //ищем 4
 Console.WriteLine(pos); 
 
 //test
