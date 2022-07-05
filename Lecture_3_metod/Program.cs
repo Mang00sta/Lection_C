@@ -158,3 +158,10 @@ void SelectionSort(int[] Array) // метод подбора
 PrintArray(arr);
 SelectionSort(arr);
 PrintArray(arr);
+
+
+
+
+
+
+
